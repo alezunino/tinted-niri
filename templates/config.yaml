@@ -1,0 +1,8 @@
+base16-default:
+  extension: .kdl
+  filename: "themes/{{ scheme-system }}-{{ scheme-slug }}.kdl"
+
+base24-default:
+  extension: .kdl
+  filename: "themes/{{ scheme-system }}-{{ scheme-slug }}.kdl"
+  supported-systems: [base24]

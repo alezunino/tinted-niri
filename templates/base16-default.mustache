@@ -1,0 +1,37 @@
+layout {
+    focus-ring {
+        active-color "#{{base0B-hex}}"
+        inactive-color "#{{base03-hex}}"
+        urgent-color "#{{base08-hex}}"
+    }
+
+    border {
+        width 3
+        active-color "#{{base0B-hex}}"
+        inactive-color "#{{base03-hex}}"
+        urgent-color "#{{base08-hex}}"
+    }
+}
+
+window-rule {
+    match is-window-cast-target=true
+
+    focus-ring {
+        active-color "#{{base0E-hex}}"
+        inactive-color "#{{base08-hex}}"
+    }
+
+    border {
+        on
+        inactive-color "#{{base08-hex}}"
+    }
+
+    shadow {
+        color "#{{base08-hex}}F0"
+    }
+
+    tab-indicator {
+        active-color "#{{base0E-hex}}"
+        inactive-color "#{{base08-hex}}"
+    }
+}
